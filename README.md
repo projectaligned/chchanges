@@ -3,6 +3,11 @@ Detect statistically meaningful changes in streams of data via online changepoin
 ---
 [![Build Status](https://semaphoreci.com/api/v1/jonathanward/chchanges/branches/master/badge.svg)](https://semaphoreci.com/jonathanward/chchanges)
 
+Available as a package on [pypi](https://pypi.org/project/chchanges/#history).
+```
+pip install chchanges
+```
+
 For example, we can detect changes in a stream of normally distributed data, where the mean of the distribution is piecewise constant:
 
 ### The stream of data
