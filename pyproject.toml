@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chchanges"
+version = "1.0.4"
+description = "Detect statistically meaningful changes in streams of data."
+authors = ["Jonathan Ward <jon.ward.me@gmail.com>"]
+license = "MIT"
+exclude = ["chchanges/demos/*.gif"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.16"
+scipy = "^1.2"
+matplotlib = "^3.0"
+pytest = "^4.4"
+imageio = "^2.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
